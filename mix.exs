@@ -1,9 +1,9 @@
-defmodule PhoenixPlayground.MixProject do
+defmodule PHP.MixProject do
   use Mix.Project
 
   def project do
     [
-      app: :phoenix_playground,
+      app: :php,
       version: "0.1.0",
       elixir: "~> 1.15",
       start_permanent: Mix.env() == :prod,
